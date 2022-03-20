@@ -362,8 +362,6 @@ EXTERNAL SOURCES:
     :podspec: "../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec"
   EXApplication:
     :path: "../node_modules/expo-application/ios"
-  RNFS:
-    :path => "../node_modules/react-native-fs"
   EXCamera:
     :path: "../node_modules/expo-camera/ios"
   EXConstants:

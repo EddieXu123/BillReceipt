@@ -33,16 +33,17 @@ export const BillCamera = () => {
       const filePath = photo.uri;
       console.log("Heyo");
 
-      const newFilePath = RNFS.DocumentDirectoryPath;
+      const newFilePath = RNFS.DocumentDirectoryPath + "/receipt.png";
       console.log("HEYYYY");
-      //   console.log(newFilePath);
-      //   RFNS.moveFile(filePath, newFilePath)
-      //     .then(() => {
-      //       console.log("Image Moved");
-      //     })
-      //     .catch((error) => {
-      //       console.log(error);
-      //     });
+      console.log(newFilePath);
+      // RFNS.moveFile(filePath, newFilePath)
+      //   .then(() => {
+      //     console.log("Image Moved");
+      //   })
+      //   .catch((error) => {
+      //     console.log("Errrorrrr");
+      //     console.log(error);
+      //   });
       console.log("Finished");
       setPreviewVisible(true);
       setCapturedImage(photo);
